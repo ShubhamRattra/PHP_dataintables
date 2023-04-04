@@ -1,0 +1,69 @@
+*{  
+      padding: 0;  
+      margin: 0;  
+      box-sizing: border-box;  
+      font-family: 'Times New Roman', sans-serif;  
+ }  
+
+ body
+ {  
+      width: 100%;  
+      height: 100vh;  
+      display: flex;  
+      justify-content: center;  
+      align-items: center;  
+      background-color: #5d6d7d;  
+ }  
+
+ .container
+ {  
+      max-width: 500px;  
+      width: 100%;  
+      background-color: #ffff;  
+ }  
+
+ .container form
+ {  
+      width: 100%;  
+      padding: 10px;  
+ }  
+
+ .container form .data-insert
+ {  
+      width: 100%;  
+      padding: 12px 10px;  
+      outline: none;  
+      border: 1px solid #111;  
+      margin: 8px 0px  
+ }  
+
+ .container form .sub_btn_Sub
+ {  
+      width: 100%;  
+      padding: 10px 30px;  
+      background-color: forestgreen;  
+      color: #ffff;  
+      font-size: 1em;  
+      outline: none;  
+      border: 0;  
+      cursor: pointer;  
+ }  
+
+ .container form .sub_btn_Res
+ {  
+      width: 100%;  
+      padding: 10px 30px;  
+      background-color: dimgrey;  
+      color: #ffff;  
+      font-size: 1em;  
+      outline: none;  
+      border: 0;  
+      cursor: pointer;  
+ }  
+
+ .container h1
+ {  
+      display: block;  
+      text-align: center;  
+      padding: 15px 0px;  
+ }
